@@ -1,1 +1,1 @@
-# GWC-Final-Project
+# Team Gane Industries
