@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Fia
+//  Fia v2
 //
-//  Created by Elizabeth Ostrow on 8/5/19.
+//  Created by Elizabeth Ostrow on 8/7/19.
 //  Copyright © 2019 GANE Industries. All rights reserved.
 //
 
@@ -15,10 +15,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func test(_ sender: UITextField) {
-        print(sender.text!)
-    }
+
 }
-
-
 
