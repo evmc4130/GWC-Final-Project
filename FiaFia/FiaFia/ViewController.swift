@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  ToDo
+//  FiaFia
 //
-//  Created by Elizabeth Ostrow on 8/9/19.
+//  Created by Elizabeth Ostrow on 8/12/19.
 //  Copyright © 2019 GANE Industries. All rights reserved.
 //
 
@@ -14,40 +14,33 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    @IBOutlet weak var nam: UITextField!
+    @IBOutlet weak var name: UITextField!
+    @IBOutlet weak var accomplishment: UITextView!
+    @IBOutlet weak var errormessage: UILabel!
     
-    @IBOutlet weak var errorMessage: UILabel!
-    @IBOutlet weak var moment: UITextField!
     @IBAction func createProfile(_ sender: UIButton) {
-        if(nam.text == "" || moment.text == ""){
-            errorMessage.text = "You're an idiot"
+        if(name.text == "" || accomplishment.text == ""){
+            errormessage.text = "You missed a required field. Please try again!"
         }
         else{
             if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
                 let user = UserCoreData(entity:UserCoreData.entity(), insertInto: context)
-                user.name = nam.text!
-                user.moment = moment.text!
+                user.name = name.text!
+                user.accomplishment = accomplishment.text!
                 try? context.save()
                 UserDefaults.standard.set(true, forKey: "accountCreated")
                 self.performSegue(withIdentifier: "showSurvey", sender: self)
             }
         }
     }
-            }
-
-
-
-    func getToDos(){
-        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
-
-            if let user1 = try? context.fetch(UserCoreData.fetchRequest()) as? [UserCoreData]{
-            print(user1.last!.name!) 
-            }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let main = segue.destination as? SurveyViewController{
+            main.accomplishment = accomplishment.text!
+            
         }
     }
-    @IBAction func test(_ sender: UIButton) {
-        getToDos()
-    }
+    
+}
 
 
