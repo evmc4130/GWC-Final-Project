@@ -19,6 +19,7 @@
 		A41DDF69230213A4002EFA55 /* SadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41DDF68230213A4002EFA55 /* SadViewController.swift */; };
 		A41DDF6B23021419002EFA55 /* HappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41DDF6A23021419002EFA55 /* HappyViewController.swift */; };
 		A41DDF6D23021445002EFA55 /* FineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41DDF6C23021445002EFA55 /* FineViewController.swift */; };
+		A4DE295E2302FFC600FEDF21 /* phonto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4DE295D2302FFC600FEDF21 /* phonto.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A41DDF68230213A4002EFA55 /* SadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadViewController.swift; sourceTree = "<group>"; };
 		A41DDF6A23021419002EFA55 /* HappyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyViewController.swift; sourceTree = "<group>"; };
 		A41DDF6C23021445002EFA55 /* FineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FineViewController.swift; sourceTree = "<group>"; };
+		A4DE295D2302FFC600FEDF21 /* phonto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = phonto.jpg; path = Assets.xcassets/phonto.imageset/phonto.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		A41DDF29230211D8002EFA55 = {
 			isa = PBXGroup;
 			children = (
+				A41DDF3C230211D8002EFA55 /* FiaFia.xcdatamodeld */,
 				A41DDF34230211D8002EFA55 /* FiaFia */,
 				A41DDF4C230211D9002EFA55 /* FiaFiaTests */,
 				A41DDF57230211D9002EFA55 /* FiaFiaUITests */,
@@ -117,7 +120,7 @@
 				A41DDF3F230211D9002EFA55 /* Assets.xcassets */,
 				A41DDF41230211D9002EFA55 /* LaunchScreen.storyboard */,
 				A41DDF44230211D9002EFA55 /* Info.plist */,
-				A41DDF3C230211D8002EFA55 /* FiaFia.xcdatamodeld */,
+				A4DE295D2302FFC600FEDF21 /* phonto.jpg */,
 			);
 			path = FiaFia;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A41DDF43230211D9002EFA55 /* LaunchScreen.storyboard in Resources */,
+				A4DE295E2302FFC600FEDF21 /* phonto.jpg in Resources */,
 				A41DDF40230211D9002EFA55 /* Assets.xcassets in Resources */,
 				A41DDF3B230211D8002EFA55 /* Main.storyboard in Resources */,
 			);

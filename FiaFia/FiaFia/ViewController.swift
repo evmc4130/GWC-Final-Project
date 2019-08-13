@@ -18,7 +18,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var accomplishment: UITextView!
     @IBOutlet weak var errormessage: UILabel!
     
-    @IBAction func createProfile(_ sender: UIButton) {
+//    @IBAction func createAccount(_ sender: UIButton) {
+//    }
+    @IBAction func createAccount(_ sender: UIButton) {
         if(name.text == "" || accomplishment.text == ""){
             errormessage.text = "You missed a required field. Please try again!"
         }
@@ -37,7 +39,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let main = segue.destination as? SurveyViewController{
             main.accomplishment = accomplishment.text!
-            
+
         }
     }
     
