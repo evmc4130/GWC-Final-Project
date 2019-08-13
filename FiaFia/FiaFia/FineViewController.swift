@@ -10,6 +10,7 @@ import UIKit
 
 class FineViewController: UIViewController {
     
+    @IBOutlet weak var motivation: UILabel!
     
     var user: String = ""
     
@@ -24,6 +25,8 @@ class FineViewController: UIViewController {
         }
     }
     
+    
+
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let back = segue.destination as? SurveyViewController{

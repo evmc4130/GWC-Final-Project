@@ -27,9 +27,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cherylcontee" translatesAutoresizingMaskIntoConstraints="NO" id="uWT-IU-ga9">
                                 <rect key="frame" x="121.5" y="115" width="171" height="170.5"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5o-MY-8kF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5o-MY-8kF">
                                 <rect key="frame" x="187" y="798" width="41" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Home">
                                     <color key="titleColor" red="0.1122048863" green="0.2210416955" blue="0.54960735100000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -37,11 +36,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="witReturn" id="RgP-lu-yMY"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Snw-eT-SDT">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Snw-eT-SDT">
                                 <rect key="frame" x="47" y="310" width="320" height="359"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Chief Executive Officer at Do Big Things and Author of Mechanical Bull: How You Can Achieve Startup Success
+                                <string key="text">Chief Executive Officer at Do Big Things and Author of Mechanical Bull: How You Can Achieve Startup Success
 
 - Award-winning CEO and co-founder of “Do Big Things” (digital agency)
 - Co-founder of Fission Strategy (helped the world’s leading non-profits &amp; foundations design digital ecosystems that create change globally); helped write early source code for Crowdtangle 
@@ -55,18 +53,25 @@ Named as an Affiliate of Harvard University's Berkman Center for Internet &amp; 
 - Named by Fast Company as one of their 2010 Most Influential Women in Tech
 Featured in many media outlets including Washington Post, New York Times, Vanity Fair, San Francisco Mag, C-SPAN, Black Enterprise, BBC, MSNBC &amp; CNN
 - Serves on many boards and advisory committees, including Netroots Nation &amp; Greenpeace USA
-</mutableString>
+</string>
                                 <color key="textColor" red="0.1122048863" green="0.2210416955" blue="0.54960735100000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.72116059829841705" green="0.87563680792754395" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.70742042140024819" green="1" blue="0.89837520700358131" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Kfl-cT-d51" firstAttribute="top" secondItem="B2X-EO-N7x" secondAttribute="top" constant="43" id="1Gi-pE-UOA"/>
                             <constraint firstItem="Kfl-cT-d51" firstAttribute="leading" secondItem="B2X-EO-N7x" secondAttribute="leading" constant="47" id="2xu-ho-R2M"/>
                             <constraint firstItem="uWT-IU-ga9" firstAttribute="centerX" secondItem="Y1q-kQ-P9p" secondAttribute="centerX" id="E6x-bi-g8O"/>
                             <constraint firstItem="B2X-EO-N7x" firstAttribute="trailing" secondItem="Kfl-cT-d51" secondAttribute="trailing" constant="47" id="H9a-e4-BOU"/>
+                            <constraint firstItem="Snw-eT-SDT" firstAttribute="leading" secondItem="B2X-EO-N7x" secondAttribute="leading" constant="47" id="KPU-3Y-c94"/>
+                            <constraint firstItem="Snw-eT-SDT" firstAttribute="top" secondItem="uWT-IU-ga9" secondAttribute="bottom" constant="24.5" id="QEK-aq-7eG"/>
+                            <constraint firstItem="B2X-EO-N7x" firstAttribute="bottom" secondItem="s5o-MY-8kF" secondAttribute="bottom" constant="34" id="TLD-D3-4Dd"/>
+                            <constraint firstItem="B2X-EO-N7x" firstAttribute="trailing" secondItem="s5o-MY-8kF" secondAttribute="trailing" constant="186" id="fQy-Dz-7vv"/>
+                            <constraint firstItem="s5o-MY-8kF" firstAttribute="leading" secondItem="B2X-EO-N7x" secondAttribute="leading" constant="187" id="hFj-S2-C66"/>
+                            <constraint firstItem="B2X-EO-N7x" firstAttribute="trailing" secondItem="Snw-eT-SDT" secondAttribute="trailing" constant="47" id="lwD-U9-VDO"/>
+                            <constraint firstItem="s5o-MY-8kF" firstAttribute="top" secondItem="Snw-eT-SDT" secondAttribute="bottom" constant="129" id="pDz-uf-TQs"/>
                             <constraint firstItem="uWT-IU-ga9" firstAttribute="top" secondItem="Kfl-cT-d51" secondAttribute="bottom" constant="8" id="pFV-55-jJJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="B2X-EO-N7x"/>
@@ -127,10 +132,9 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
                                     <segue destination="Ole-yg-v4y" kind="show" identifier="sadRoute" id="AQP-cI-CYw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iup-yC-euZ">
-                                <rect key="frame" x="155" y="751" width="105" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Woman in Tech">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iup-yC-euZ">
+                                <rect key="frame" x="115" y="782" width="185" height="30"/>
+                                <state key="normal" title="Woman in Tech Inspiration!">
                                     <color key="titleColor" red="0.1122048863" green="0.2210416955" blue="0.54960735100000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -144,7 +148,9 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
                             <constraint firstItem="jHp-du-pTy" firstAttribute="top" secondItem="hJY-uW-OYM" secondAttribute="bottom" constant="34" id="CzE-Eb-HOi"/>
                             <constraint firstItem="Ub5-27-YNH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="211" id="L6n-lu-M3l"/>
                             <constraint firstItem="hJY-uW-OYM" firstAttribute="top" secondItem="jUK-ez-kOB" secondAttribute="bottom" constant="32" id="N9N-hg-r2H"/>
+                            <constraint firstItem="iup-yC-euZ" firstAttribute="top" secondItem="jHp-du-pTy" secondAttribute="bottom" constant="188" id="NQM-sP-74Q"/>
                             <constraint firstItem="jUK-ez-kOB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="P7d-bI-J8o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iup-yC-euZ" secondAttribute="bottom" constant="50" id="QzW-E1-fiY"/>
                             <constraint firstItem="Ub5-27-YNH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="RQv-VR-n7h"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ub5-27-YNH" secondAttribute="trailing" constant="52" id="SPA-Ye-alK"/>
                             <constraint firstItem="jHp-du-pTy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="192" id="WNp-Tj-zyb"/>
@@ -152,7 +158,9 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
                             <constraint firstItem="hJY-uW-OYM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="190" id="Yjl-bU-mpl"/>
                             <constraint firstItem="jUK-ez-kOB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="az9-EA-DcP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jHp-du-pTy" secondAttribute="bottom" constant="268" id="dQL-mE-gPd"/>
+                            <constraint firstItem="iup-yC-euZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="e4X-6R-AER"/>
                             <constraint firstItem="z9Z-Aq-wU2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="iLT-nh-i97"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iup-yC-euZ" secondAttribute="trailing" constant="114" id="o8h-vA-R34"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jHp-du-pTy" secondAttribute="trailing" constant="191" id="qx6-su-Voy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z9Z-Aq-wU2" secondAttribute="trailing" constant="46" id="rqK-Sp-M3c"/>
                         </constraints>
@@ -225,9 +233,8 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
                                 <color key="textColor" red="0.1122048863" green="0.2210416955" blue="0.54960735100000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ge-Ok-Of3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ge-Ok-Of3">
                                 <rect key="frame" x="170" y="544" width="75" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Home">
                                     <color key="titleColor" red="0.1122048863" green="0.2210416955" blue="0.54960735100000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -240,15 +247,22 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
                         <color key="backgroundColor" red="1" green="0.64705882349999999" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="gUB-Ou-vVi" firstAttribute="top" secondItem="YBt-O9-wmu" secondAttribute="top" constant="293" id="C80-fj-CUc"/>
+                            <constraint firstItem="YBt-O9-wmu" firstAttribute="trailing" secondItem="3ge-Ok-Of3" secondAttribute="trailing" constant="169" id="Onz-wz-GVw"/>
+                            <constraint firstItem="3ge-Ok-Of3" firstAttribute="leading" secondItem="YBt-O9-wmu" secondAttribute="leading" constant="170" id="bdK-sR-Rdq"/>
                             <constraint firstItem="YBt-O9-wmu" firstAttribute="trailing" secondItem="gUB-Ou-vVi" secondAttribute="trailing" constant="132" id="kBp-Ch-y9Z"/>
                             <constraint firstItem="gUB-Ou-vVi" firstAttribute="leading" secondItem="YBt-O9-wmu" secondAttribute="leading" constant="132" id="lnr-L6-6MC"/>
+                            <constraint firstItem="YBt-O9-wmu" firstAttribute="bottom" secondItem="3ge-Ok-Of3" secondAttribute="bottom" constant="210" id="nd6-jX-O5u"/>
+                            <constraint firstItem="3ge-Ok-Of3" firstAttribute="top" secondItem="gUB-Ou-vVi" secondAttribute="bottom" constant="177.5" id="yE6-8O-No0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YBt-O9-wmu"/>
                     </view>
+                    <connections>
+                        <outlet property="motivation" destination="gUB-Ou-vVi" id="3Wd-ix-iJu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MBK-ut-eCd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="778" y="801"/>
+            <point key="canvasLocation" x="776.81159420289862" y="800.89285714285711"/>
         </scene>
         <!--Sad View Controller-->
         <scene sceneID="IMq-Rl-mtU">
@@ -259,7 +273,7 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxc-2x-B9S">
-                                <rect key="frame" x="176" y="567" width="62" height="32"/>
+                                <rect key="frame" x="176" y="416.5" width="62" height="182.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Home">
                                     <color key="titleColor" red="1" green="0.8862745098" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -268,16 +282,14 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="sadRouteBack" id="8gQ-3g-UhL"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I'm sorry you feel that way. Remember when you said this?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sd1-VA-cNT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm sorry you feel that way. Remember when you said this?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sd1-VA-cNT">
                                 <rect key="frame" x="77" y="278" width="260" height="87.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 <color key="textColor" red="1" green="0.88627450980392153" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AoV-17-XCC">
-                                <rect key="frame" x="104" y="373" width="207" height="193"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                                                                                                          " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AoV-17-XCC">
+                                <rect key="frame" x="42" y="362" width="331" height="22.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                 <color key="textColor" red="1" green="0.8862745098" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -287,6 +299,16 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
                         <constraints>
                             <constraint firstItem="En3-ud-oH4" firstAttribute="bottom" secondItem="Qxc-2x-B9S" secondAttribute="bottom" constant="263" id="Ai3-ue-Sxg"/>
                             <constraint firstItem="En3-ud-oH4" firstAttribute="trailing" secondItem="Qxc-2x-B9S" secondAttribute="trailing" constant="176" id="Ash-eg-IOb"/>
+                            <constraint firstItem="En3-ud-oH4" firstAttribute="trailing" secondItem="Sd1-VA-cNT" secondAttribute="trailing" constant="77" id="Eze-3s-ava"/>
+                            <constraint firstItem="Sd1-VA-cNT" firstAttribute="top" secondItem="En3-ud-oH4" secondAttribute="top" constant="234" id="Gwu-rS-IYy"/>
+                            <constraint firstItem="AoV-17-XCC" firstAttribute="top" secondItem="En3-ud-oH4" secondAttribute="top" constant="318" id="OX0-Ed-lVD"/>
+                            <constraint firstItem="En3-ud-oH4" firstAttribute="trailing" secondItem="AoV-17-XCC" secondAttribute="trailing" constant="41" id="Pm5-fX-Nsn"/>
+                            <constraint firstItem="AoV-17-XCC" firstAttribute="leading" secondItem="En3-ud-oH4" secondAttribute="leading" constant="42" id="R6t-c4-OV0"/>
+                            <constraint firstItem="Sd1-VA-cNT" firstAttribute="leading" secondItem="En3-ud-oH4" secondAttribute="leading" constant="77" id="RG4-SQ-z3t"/>
+                            <constraint firstItem="Qxc-2x-B9S" firstAttribute="top" secondItem="AoV-17-XCC" secondAttribute="bottom" constant="32" id="ZkQ-Fe-aXQ"/>
+                            <constraint firstItem="En3-ud-oH4" firstAttribute="trailing" secondItem="Qxc-2x-B9S" secondAttribute="trailing" constant="176" id="hny-L0-QuZ"/>
+                            <constraint firstItem="En3-ud-oH4" firstAttribute="bottom" secondItem="Qxc-2x-B9S" secondAttribute="bottom" constant="263" id="jV7-AG-zib"/>
+                            <constraint firstItem="Qxc-2x-B9S" firstAttribute="leading" secondItem="En3-ud-oH4" secondAttribute="leading" constant="176" id="qMr-Bm-IUf"/>
                             <constraint firstItem="Qxc-2x-B9S" firstAttribute="leading" secondItem="En3-ud-oH4" secondAttribute="leading" constant="176" id="uJq-Wr-cWo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="En3-ud-oH4"/>
@@ -391,6 +413,6 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
         <image name="cherylcontee" width="170.66667175292969" height="170.66667175292969"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RgP-lu-yMY"/>
+        <segue reference="8gQ-3g-UhL"/>
     </inferredMetricsTieBreakers>
 </document>
