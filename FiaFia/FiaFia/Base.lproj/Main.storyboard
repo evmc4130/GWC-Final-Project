@@ -347,16 +347,6 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLX-wH-5JN">
-                                <rect key="frame" x="155" y="763" width="105" height="30"/>
-                                <state key="normal" title="Create account">
-                                    <color key="titleColor" red="0.1122048863" green="0.2210416955" blue="0.54960735100000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="createAccount:" destination="axW-Tf-usm" eventType="touchDown" id="awq-no-e38"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="showSurvey" id="yAz-Nh-twu"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aOr-Yq-CNi">
                                 <rect key="frame" x="56" y="219" width="303" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -370,6 +360,16 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
                                 <color key="textColor" red="0.1122048863" green="0.2210416955" blue="0.54960735100000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLX-wH-5JN">
+                                <rect key="frame" x="155" y="806" width="105" height="30"/>
+                                <state key="normal" title="Create account">
+                                    <color key="titleColor" red="0.1122048863" green="0.2210416955" blue="0.54960735100000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="createAccount:" destination="axW-Tf-usm" eventType="touchDown" id="awq-no-e38"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="showSurvey" id="yAz-Nh-twu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98490458839999995" green="0.96811514359999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -384,17 +384,17 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
                             <constraint firstItem="aOr-Yq-CNi" firstAttribute="top" secondItem="1Oe-Xq-6Ne" secondAttribute="bottom" constant="30" id="XyI-xu-19q"/>
                             <constraint firstItem="O7Q-nU-vjO" firstAttribute="trailing" secondItem="iLX-wH-5JN" secondAttribute="trailing" constant="154" id="YiL-Nu-Ib5"/>
                             <constraint firstItem="m2c-hG-mgK" firstAttribute="top" secondItem="9xb-HP-Ye6" secondAttribute="bottom" constant="26" id="Z3b-rh-1i7"/>
-                            <constraint firstItem="iLX-wH-5JN" firstAttribute="top" secondItem="Jfl-G7-3SM" secondAttribute="bottom" constant="108" id="daw-Fl-Ncx"/>
+                            <constraint firstItem="iLX-wH-5JN" firstAttribute="top" secondItem="Jfl-G7-3SM" secondAttribute="bottom" constant="151" id="daw-Fl-Ncx"/>
                             <constraint firstItem="iLX-wH-5JN" firstAttribute="leading" secondItem="O7Q-nU-vjO" secondAttribute="leading" constant="155" id="eXg-3o-X0q"/>
                             <constraint firstItem="O7Q-nU-vjO" firstAttribute="trailing" secondItem="m2c-hG-mgK" secondAttribute="trailing" constant="55" id="gBu-Yd-RS4"/>
                             <constraint firstItem="O7Q-nU-vjO" firstAttribute="trailing" secondItem="Jfl-G7-3SM" secondAttribute="trailing" constant="186" id="jKf-IK-gdl"/>
-                            <constraint firstItem="iLX-wH-5JN" firstAttribute="top" secondItem="m2c-hG-mgK" secondAttribute="bottom" constant="234" id="lR7-7v-ZcC"/>
-                            <constraint firstItem="O7Q-nU-vjO" firstAttribute="bottom" secondItem="iLX-wH-5JN" secondAttribute="bottom" constant="69" id="mVM-fa-wSi"/>
+                            <constraint firstItem="iLX-wH-5JN" firstAttribute="top" secondItem="m2c-hG-mgK" secondAttribute="bottom" constant="277" id="lR7-7v-ZcC"/>
+                            <constraint firstItem="O7Q-nU-vjO" firstAttribute="bottom" secondItem="iLX-wH-5JN" secondAttribute="bottom" constant="26" id="mVM-fa-wSi"/>
                             <constraint firstItem="m2c-hG-mgK" firstAttribute="top" secondItem="9xb-HP-Ye6" secondAttribute="bottom" constant="26" id="mlG-h4-sPQ"/>
                             <constraint firstItem="1Oe-Xq-6Ne" firstAttribute="top" secondItem="O7Q-nU-vjO" secondAttribute="top" constant="124" id="rFt-TE-oI7"/>
                             <constraint firstItem="m2c-hG-mgK" firstAttribute="leading" secondItem="O7Q-nU-vjO" secondAttribute="leading" constant="56" id="wVa-VZ-RPf"/>
                             <constraint firstItem="aOr-Yq-CNi" firstAttribute="leading" secondItem="O7Q-nU-vjO" secondAttribute="leading" constant="56" id="x5X-hS-aNp"/>
-                            <constraint firstItem="iLX-wH-5JN" firstAttribute="top" secondItem="m2c-hG-mgK" secondAttribute="bottom" constant="234" id="yiZ-AM-uEX"/>
+                            <constraint firstItem="iLX-wH-5JN" firstAttribute="top" secondItem="m2c-hG-mgK" secondAttribute="bottom" constant="277" id="yiZ-AM-uEX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O7Q-nU-vjO"/>
                     </view>
@@ -413,6 +413,6 @@ Featured in many media outlets including Washington Post, New York Times, Vanity
         <image name="cherylcontee" width="170.66667175292969" height="170.66667175292969"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8gQ-3g-UhL"/>
+        <segue reference="yAz-Nh-twu"/>
     </inferredMetricsTieBreakers>
 </document>

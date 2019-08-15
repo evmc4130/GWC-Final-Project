@@ -37,9 +37,11 @@ class SurveyViewController: UIViewController {
         }
     }
     
+            // ad override if it doesn't work
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let sad = segue.destination as? SadViewController{
             sad.momentStory = accomplishment
+//            sad.momentStory = adj
             sad.user = name
         }
             
@@ -53,3 +55,5 @@ class SurveyViewController: UIViewController {
         
     }
 }
+
+
